@@ -1,0 +1,32 @@
+.c01{
+  margin: 10px;
+  padding: 10px;
+  background-color:  gainsboro;
+  border-radius: 10px;
+}
+.title{
+  font-size: 34rpx;
+  font-weight: 600;
+  color:#333;
+  margin-bottom: 20px;
+}
+
+.answerpeople{
+  font-size: 26rpx;
+  font-weight: 700;
+  color:#333;
+  margin-bottom: 20px;
+}
+
+.answertime{
+  font-size: 26rpx;
+  font-weight: 500;
+  color:#333;
+  margin-bottom: 20px;
+}
+
+.btn
+{
+  background-color:green;
+  color:green;
+}

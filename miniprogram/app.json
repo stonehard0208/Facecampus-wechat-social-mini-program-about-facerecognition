@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/openapi/openapi",
+    "pages/face/face",
+    "pages/calendar/calendar",
+    "pages/timetable/timetable",
+    "pages/survey/survey",
+    "pages/score/score",
+    "pages/business/business",
+    "pages/discord/discord",
+    "pages/toolspage/toolspage"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "FaceCampus",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "color": "#226c89",
+    "selectedColor": "black",
+    "list": [
+      {
+        "selectedIconPath": "image/index1.png",
+        "iconPath": "image/index2.png",
+        "pagePath": "pages/index/index",
+        "text": "主页"
+      },
+      {
+        "selectedIconPath": "image/discord1.png",
+        "iconPath": "image/discord2.png",
+        "pagePath": "pages/discord/discord",
+        "text": "社区"
+      },
+      {
+        "selectedIconPath": "image/toolspage1.png",
+        "iconPath": "image/toolspage2.png",
+        "pagePath": "pages/toolspage/toolspage",
+        "text": "工具"
+      }
+      
+    ]
+  }
+}

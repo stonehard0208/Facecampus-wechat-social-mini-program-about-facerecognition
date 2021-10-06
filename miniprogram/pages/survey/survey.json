@@ -1,0 +1,10 @@
+{
+  "pages":[
+    "pages/survey/survey"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#8ED145",
+    "navigationBarTitleText": "DS校脸通",
+    "navigationBarTextStyle": "black"
+  }
+}

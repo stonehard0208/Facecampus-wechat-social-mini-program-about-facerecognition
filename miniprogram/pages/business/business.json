@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "product-hot": "/components/product-hot/product-hot",
+    "product-big": "/components/product-big/product-big"
+  }
+}

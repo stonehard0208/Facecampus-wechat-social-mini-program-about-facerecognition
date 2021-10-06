@@ -1,0 +1,57 @@
+<button class ='btn' type="default">发布问卷</button>
+<navigator class='c01'>
+<text class='title'>有关大学生消费的调查问卷</text>
+<view>
+<text class='answerpeople'>参与人数：36</text>
+<text class='answertime'>          发布时间：6小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>基于慕课使用情况的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：58</text>
+<text class='answertime'>          发布时间：6小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>网络舆论的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：32</text>
+<text class='answertime'>          发布时间：8小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>有关大学生使用电脑时长的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：94</text>
+<text class='answertime'>          发布时间：9小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>有关读书的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：67</text>
+<text class='answertime'>          发布时间：9小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>有关校内订餐系统的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：32</text>
+<text class='answertime'>          发布时间：10小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>有关校内菜鸟驿站使用的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：98</text>
+<text class='answertime'>          发布时间：12小时前</text>
+</view>
+</navigator>
+<navigator class='c01'>
+<text class='title'>有关垃圾分类的调查问卷</text>
+<view>
+<text class='answerpeople'>已作答人数：112</text>
+<text class='answertime'>          发布时间：昨天</text>
+</view>
+</navigator>
