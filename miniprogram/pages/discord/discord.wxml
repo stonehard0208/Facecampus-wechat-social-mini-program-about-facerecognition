@@ -1,30 +1,9 @@
 <!--miniprogram/pages/discord/discord.wxml-->
-<text>miniprogram/pages/discord/discord.wxml</text>
 
 
-
-
-
-<!-- <scroll-view class="latest-item-container {{currentNavbar==1 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;">
-  <view>
-    <image src="https://i.loli.net/2021/05/02/WEbsMXxA2UDIn7q.jpg"></image>
-  </view>
-  <view  mode="widthFix">
-    <image src="https://i.loli.net/2021/05/02/WEbsMXxA2UDIn7q.jpg"></image>
-  </view>
-  <view style="height:{{sysWidth}}rpx">
-    <image src="https://i.loli.net/2021/05/02/WEbsMXxA2UDIn7q.jpg"></image>
-  </view>
-  
-
-      
-</scroll-view> -->
-<scroll-view class="latest-item-container {{currentNavbar==1 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" bindscrolltolower="pullUpLoadLatest">
 
 <view class="view-content-group">
-  <navigator url='../img/img' class='posiFix'>
-<image class="jxlogo" src="../../add.png"/>
-  </navigator>
+
 
   <view class="view-content" wx:for="{{shequ_img_List}}" wx:for-item="item" wx:key="key">
     <image src="{{item.imgUrl}}" mode="widthFix">
@@ -60,52 +39,5 @@
 
 
 
-</scroll-view>
-<scroll-view class="latest-item-container {{currentNavbar==2 ? '' : 'hidden'}}" style="height: {{systemInfo.windowHeight}}px;" scroll-y="true" bindscrolltolower="pullUpLoadLatest">
-<swiper class="slides" autoplay="{{slides.length > 1}}" indicator-dots="{{slides.length > 1}}" indicator-color="#bcc0c9" indicator-active-color="#3a4861">
-<swiper-item>
-  <!-- <navigator>
-    <image src="https://i.loli.net/2021/05/09/ir1zHCaPWS8kbxe.png" mode="aspectFill" style='background-color:white'/>
-  </navigator> -->
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/banner/20210519224343.jpg" />
-  <navigator>
-    <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/banner/20210519224343.jpg" />
-  </navigator>
-</swiper-item>
 
-</swiper>
-
-
-<view class="grids">
-
-<navigator url="/pages/calendar/calendar" class="item">
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/xiaoli.png"/>
-  <text>校历</text>
-</navigator>
-<navigator url="/pages/score/score" class="item">
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/chengji.png"/>
-  <text>成绩</text>
-</navigator>
-<navigator url="/pages/timetable/timetable" class="item">
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/kebiao.png"/>
-  <text>课表</text>
-</navigator>
-
-
-<navigator url="/pages/survey/survey" class="item">
-  <image  src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/diaocha.png"/>
-  <text>调查</text>
-</navigator>
-<navigator class="item">
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/juanzeng.png"/>
-  <text>捐赠</text>
-</navigator>
-<navigator  url="/pages/business/business" class="item">
-  <image src="cloud://cloud1-3gf9ughu51389270.636c-cloud1-3gf9ughu51389270-1305714734/gongju/jiaoyi.png"/>
-  <text>交易</text>
-</navigator>
-
-
-</view> 
-</scroll-view>
 
